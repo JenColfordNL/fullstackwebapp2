@@ -1,15 +1,19 @@
 {
   "name": "fullstackwebapp2",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "author": "Jennifer Colford",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13",
+    "prettier": "2.4.1"
+  },
+  "description": ""
 }
