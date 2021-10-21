@@ -15,8 +15,7 @@ module.exports.initialize = function() {
             reject(err);
         } 
             employees = JSON.parse(data);
-            // console.log(data);
-            // console.log(parseData);
+            
         });
 
         fs.readFile('./data/departments.json', 'utf8', (err, data) => 
@@ -24,8 +23,7 @@ module.exports.initialize = function() {
             reject(err);
         }
             departments = JSON.parse(data)
-            // console.log(data);
-            // console.log(parseData);
+            
             resolve();
         });
 
@@ -96,13 +94,7 @@ module.exports.isManager = function() {
         
     };
 
-    //   employees.forEach(obj) => {
-
-    //     if(obj.isManager === true){
-    //         managers.push(obj);
-    //     }
-    //    }
- 
+   
 
 
 
